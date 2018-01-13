@@ -16,7 +16,7 @@ For more project information, please see project requirement detailed in [pdf](p
 	1. We pick an arbitrary edge (u, w) ∈ E. 
 	2. Recursively search for a vertex cover in (G-u) , i.e. G remove vertex of u. 
 	3. Recursively search for a vertex cover in (G-w) , i.e. G remove vertex of w. 
-- Time complexity: $2^{|V|}$
+- Time complexity: 2^|V|
 - Space complexity: O(|V|+|E|)
 
 **Approximation Algorithm** (ranked 3th/49) : 
